@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    padding-top: 50px;
+}
+
+input.invalid {
+    border: 1px solid red !important;
+}
+
+input:focus {
+    outline: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.registrationForm {
+    width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registrationForm>input {
+    border: 1px solid transparent;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.registrationForm .btnSub {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+}
